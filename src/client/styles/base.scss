@@ -1,0 +1,79 @@
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+body {
+	background-image: url("https://images.unsplash.com/photo-1554189097-ffe88e998a2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    min-width: 350px
+   }
+
+#printbutton:hover {
+    background-color: #2e2a2a;
+    color: white;
+    cursor: pointer;
+}
+
+#clearbutton:hover {
+    background-color: #2e2a2a;
+    color: white;
+    cursor: pointer;
+}
+
+button{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dacbcbe5;
+    color: rgba(12, 12, 12, 0.925);
+}
+
+#submitbutton:hover {
+    background-color: #2e2a2a;
+    color: white;
+    cursor: pointer;
+}
+
+.superpuesto{
+	font-size: 1.8em;
+	font-weight: 90;
+	color: rgb(31, 24, 24);
+	text-align: center;
+	}
+
+.position{
+	font-size: 1.4em;
+	font-weight: 60;
+	color: rgb(31, 24, 24);
+	text-align: center;
+}
+
+.position2{
+	font-size: 1em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width: 768px) {
+    span{
+        font-size: 12px;
+        font-weight: 800;
+    }
+}
+
+@media(max-width: 420px) {
+    span{
+        font-size: 12px;
+        font-weight: 800;
+        width: 35%;
+    }
+}

@@ -1,0 +1,18 @@
+section, form {
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 100%;
+}
+
+input {
+    padding: 5px 20px;
+    width: 95%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+

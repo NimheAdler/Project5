@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Project 5</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+      <header>
+        <div class="">
+            <h1>Travel App</h1>
+        </div>
+      </header>
+        <main>
+          <section>
+            <form id="form">
+                <label for="date">Start date:</label>
+                <input type="date" id="date" required name="date" placeholder="Which day do you want to start your trip?">
+                  
+                <label for="country">Destination:</label>
+                <input type="text" id="city" required name="country name" placeholder="Where do you want to travel?">
+            
+                <button id="submitbutton" href="#" type="submit" name="" value="submit">Submit</button>
+            </form>
+            <div id="forecast"></div>
+            <br>
+            <div id="error"> </div>
+            <br>
+            <div id="pic"></div>
+            <br>
+            <button id="printbutton" href="#" type="submit" name="" value="submit" class="position2">Print</button>
+            <br>
+            <button id="clearbutton" href="#" type="submit" name="" value="submit" class="position2">Clear search</button>
+          </section>
+          <footer>
+            <p>Nimhe for &copy Udacity 2022</p>
+          </footer>
+        </main>
+        <script>
+          // Service workers script check 
+          if ('serviceWorker' in navigator) {
+              window.addEventListener('load', () => {
+                  navigator.serviceWorker.register('/service-worker.js');
+              });
+          }
+        </script>
+    </body>
+</html>
